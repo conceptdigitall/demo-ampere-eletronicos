@@ -64,7 +64,8 @@ export function Hero() {
             <p className="text-sm text-white/60">{parcelas(1899)}</p>
           </div>
 
-          <div className="absolute -left-4 top-10 hidden w-60 rounded-2xl rounded-bl-sm bg-white p-3 text-sm text-ink-900 shadow-2xl sm:block lg:-left-12">
+          {/* balão embaixo à direita, ao lado do preço: em cima ele cobria o selo e o celular */}
+          <div className="absolute -right-10 bottom-20 hidden w-56 rounded-2xl rounded-tl-sm bg-white p-3 text-sm text-ink-900 shadow-2xl lg:block">
             <p className="flex items-center gap-1.5 text-xs font-semibold text-emerald-600"><Bot className="size-3.5" /> Lia · agora</p>
             <p className="mt-1">Tenho sim! Quer que eu separe um pra você retirar hoje? 📱</p>
           </div>
