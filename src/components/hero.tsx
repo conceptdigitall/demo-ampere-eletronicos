@@ -47,7 +47,7 @@ export function Hero() {
 
         {/* vitrine: produto + conversa com a Lia + lead chegando no CRM, a venda inteira numa imagem */}
         <div className="relative mx-auto w-full max-w-md lg:max-w-none" aria-hidden>
-          <div className="relative rounded-3xl bg-gradient-to-br from-white/10 to-white/[0.02] p-6 ring-1 ring-white/10 backdrop-blur">
+          <div className="relative rounded-3xl bg-gradient-to-br from-white/10 to-white/[0.02] p-6 pb-16 ring-1 ring-white/10 backdrop-blur">
             <div className="flex items-start justify-between">
               <span className="rounded-full bg-volt-400 px-3 py-1 text-xs font-bold text-ink-900">Mais vendido</span>
               <span className="text-xs text-white/50">-17%</span>
